@@ -47,3 +47,6 @@ hitting submit will change the font color with addEventListener */
     font-family: 'Arvo', 'Fredoka One', 'Skranji';
 }
 
+.hidden {
+    color: #99CC00;
+}
