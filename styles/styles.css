@@ -8,6 +8,9 @@ body {
 
 main {
     padding: 30px;
+    display: grid;
+    justify-content: center;
+    margin: 0;
 }
 
 header {
@@ -29,7 +32,7 @@ header img {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 50px;
     color: #2a7504;
     font-weight: bold;
     /* display: grid; */
@@ -38,15 +41,44 @@ h1 {
 
 footer {
     background-color: #339900;
-    padding: 10px;
+    /* padding: 10px; */
+}
+
+.lib {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
 /* color and background will match
 hitting submit will change the font color with addEventListener */
-.lib {
-    font-family: 'Arvo', 'Fredoka One', 'Skranji';
+#verb1, #verb2, #verb3, #verb4, #verb5, #verb6, #verb7, #verb8,
+#noun1, #noun2, #noun3, #adj1, #adj2, #adj3 {
+    font-family: 'Arvo', serif;
+    margin: 5px;
+    width: 130px;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+#submit {
+    font-family: 'Arvo', serif;
+    width: 90px;
+    display: grid;
+    justify-self: center;
+}
+
+p {
+    text-align: center;
 }
 
 .hidden {
     color: #99CC00;
+}
+
+#donkey {
+    width: 250px;
+    margin-bottom: 0;
+
 }
